@@ -86,8 +86,8 @@ class HumanPlayer(Player):
             try:
                 # Foreground colors are used to color the Fonts
                 move = input(f"{Fore.RED}Rock, \
-                               {Fore.BLUE}Paper, \
-                               {Fore.YELLOW}Scissors?{Fore.RESET} > ").lower()
+{Fore.BLUE}Paper, \
+{Fore.YELLOW}Scissors?{Fore.RESET} > ").lower()
                 if move in moves:
                     return move
             except ValueError:
@@ -113,16 +113,16 @@ class Game:
             print(f"{Fore.GREEN}** PLAYER ONE WINS **{Fore.RESET}")
             self.p1_score += 1
             print(f"Score: Player One - {self.p1_score}, \
-                           Player Two - {self.p2_score}")
+Player Two - {self.p2_score}")
         elif beats(move2, move1):
             print(f"{Fore.LIGHTCYAN_EX}** PLAYER TWO WINS **{Fore.RESET}")
             self.p2_score += 1
             print(f"Score: Player One - {self.p1_score}, \
-                           Player Two - {self.p2_score}")
+Player Two - {self.p2_score}")
         else:
             print(f"{Fore.LIGHTMAGENTA_EX}** TIE **{Fore.RESET}")
             print(f"Score: Player One - {self.p1_score}, \
-                Player Two - {self.p2_score}")
+Player Two - {self.p2_score}")
 
         # learn method is used to learn the Human Player moves
         self.p1.learn(move1, move2)
@@ -130,10 +130,10 @@ class Game:
 
     def play_game(self):
         # play_game is used to initiate the game
-        print(f"{Fore.RED}Rock \
-                {Fore.BLUE}Paper \
-                {Fore.YELLOW}Scissors, \
-                {Fore.RESET}Go!\n")
+        print(f"{Fore.RED}Rock{Fore.RESET} \
+{Fore.BLUE}Paper{Fore.RESET} \
+{Fore.YELLOW}Scissors,{Fore.RESET} \
+{Fore.RESET}Go!\n")
 
         while True:
             try:
@@ -148,10 +148,10 @@ class Game:
 
                 # Display Final Scores
                 print(f"\n{Fore.LIGHTMAGENTA_EX}Final Scores are: \
-                          {Fore.LIGHTBLUE_EX}Player one - \
-                                             {self.p1_score}{Fore.RESET}and \
-                          {Fore.LIGHTYELLOW_EX}Player two - \
-                                             {self.p2_score}{Fore.RESET}")
+{Fore.LIGHTBLUE_EX}Player one - \
+{self.p1_score}{Fore.RESET} and \
+{Fore.LIGHTYELLOW_EX}Player two - \
+{self.p2_score}{Fore.RESET}")
 
                 # Display who WINS, LOSE or TIE
                 if self.p1_score > self.p2_score:
@@ -170,9 +170,9 @@ def intro():
     print(f"""
 ******************************************
 *        {Fore.GREEN}Welcome to the world of{Fore.RESET}         *
-*         {Fore.RED}Rock, \
-          {Fore.BLUE}Paper, \
-          {Fore.YELLOW}Scissors!{Fore.RESET}         *
+*         {Fore.RED}Rock,{Fore.RESET}                          *
+*         {Fore.BLUE}Paper,{Fore.RESET}                         *
+*         {Fore.YELLOW}Scissors!{Fore.RESET}                      *
 *  {Fore.GREEN}Rules:{Fore.RESET}                                *
 *      {Fore.RED}1. Paper beats Rock;{Fore.RESET}              *
 *      {Fore.BLUE}2. Rock beats Scissors;{Fore.RESET}           *
