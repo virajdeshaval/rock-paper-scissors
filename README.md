@@ -2,6 +2,9 @@
 
 - This is a **Rock-Paper-Scissors** game my version where you can play with computer.
 - This game is played throughout the world.
+- A common game named **Rock-Paper-Scissors** usually played by two humans, but in this version of game the twist is one player is human who has to compete with computer.
+
+**Let's see who WINS**
 
 ## First Look
 
