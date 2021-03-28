@@ -5,7 +5,7 @@
 
 ## First Look
 
-![Look of RPS game](C:\Users\Viraj\OneDrive\Courses\Udacity\01 Intro To Programming\udacity-git-course\Projects\rock-paper-scissors\rock-paper-scissors-game.jpg)
+![Look of RPS game](C:\Users\Viraj\OneDrive\Courses\Udacity\01 Intro To Programming\udacity-git-course\Projects\rock-paper-scissors\rock-paper-scissors.JPG)
 
 ## HISTORY
 - Originated from **CHINA** from the book **WUZAZU**
