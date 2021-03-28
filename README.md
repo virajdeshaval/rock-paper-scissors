@@ -30,14 +30,6 @@
   > paper beats rock; and
   > scissors beat paper.
 
-## Key Features:
-
-1. The game gives players a description of what's happening, and then asks them to make a choice.
-2. Something different happens depending on the choice the player made.
-3. The game also includes some random factors, so that it's a little different each time.
-4. The game has conditions for winning and losing.
-5. When the game is over, it asks if the player wants to play again.
-
 ## Programming skills Explored
 
 * Core Python
