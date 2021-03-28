@@ -3,6 +3,10 @@
 - This is a **Rock-Paper-Scissors** game my version where you can play with computer.
 - This game is played throughout the world.
 
+## First Look
+
+![Look of RPS game](C:\Users\Viraj\OneDrive\Courses\Udacity\01 Intro To Programming\udacity-git-course\Projects\rock-paper-scissors\rock-paper-scissors-game.jpg)
+
 ## HISTORY
 - Originated from **CHINA** from the book **WUZAZU**
 - In **CHINA** you say, *jian dao, shi tou, bu*
